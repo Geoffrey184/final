@@ -26,7 +26,7 @@ fetch('http://localhost:1337/api/chambres/?populate=*')
     img.src = 'http://localhost:1337' + imgurl
 
    
-    div.append(titre,img,montant,taille,personnes)
+    div.append(titre,img,montant,superficie,personnes)
     content.append(categorie,div)
     console.log(categorie);
     
